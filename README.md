@@ -1,7 +1,7 @@
 # pyledshop
 Python module for interacting with LED Shop Compatible Wifi Controllers (e.g. SP108E)
 
-## Usage
+Fork of the original project, located at https://github.com/kylezimmerman/pyledshop
 
 ```py
 from pyledshop import WifiLedShopLight, MonoEffect, CustomEffect
