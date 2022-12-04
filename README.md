@@ -3,6 +3,19 @@ Python module for interacting with LED Shop Compatible Wifi Controllers (e.g. SP
 
 Fork of the original project, located at https://github.com/kylezimmerman/pyledshop
 
+## Installation
+
+Using pip:
+- macOS/Linux
+  - ```python3 -m pip install pyledshop```
+- Windows
+  - ```pip3 install pyledshop```
+    - On some systems, it is ```pip install pyledshop```.
+- Source
+  - ```https://pypi.org/project/pyledshop/```
+  
+ ## Usage
+
 ```py
 from pyledshop import WifiLedShopLight, MonoEffect, CustomEffect
 
