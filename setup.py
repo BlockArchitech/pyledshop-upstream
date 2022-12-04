@@ -13,5 +13,8 @@ setup(
         'led strip',
         'light',
         'SP108E',
-        ]
+        ],
+		classifiers=[
+			    'Development Status :: 4 - Beta',
+		]
 )
