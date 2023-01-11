@@ -13,7 +13,20 @@ Using pip:
     - On some systems, it is ```pip install pyledshop```.
 - Source
   - ```https://pypi.org/project/pyledshop/```
-  
+
+## Contributing
+
+- Fork the repository
+- Clone the repository: `$ git clone https://github.com/your-name/pyledshop`
+- Checkout new branch: `$ git checkout -b my-awesome-feature`
+- Make your changes
+- Run Black: `$ python3 -m pip install black`
+  - `black .`
+- Commit: `$ git add . && git commit -m "add my awesome feature"`
+	- Push: `$ git push origin master`
+- Open a new pull request.
+
+
  ## Usage
 
 ```py
@@ -74,12 +87,3 @@ Most of the features in the app are supported, but not everything.
 - [x] Change number of segments
 - [x] Change length of segments
 
-### Not Yet Supported
-- [ ] Upload new custom patterns (You can still upload custom patterns via the mobile app and use them)
-
-### Won't Be Supported
-- Connecting to device to Wi-Fi (This project assumes you have used the Mobile App to do the initial connection)
-
-  This is done via a complex (and often un-reliable) process involving the LED Shop App and the WiFi on your phone. It's not something that can be supported through software alone.
-
-  If you are having difficulty connecting to the device, the only way I have found to work is to **DISABLE your routers 5 GHz network completely** during pairing. I had both 2.4 and 5 GHz networks running simultaneously, even with different names I could not get it to connect. The only thing that worked was to temporarily disable 5 GHz to connect, and then re-enabling both.
