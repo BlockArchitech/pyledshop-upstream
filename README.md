@@ -1,4 +1,7 @@
 # pyledshop
+
+**Upstream repo. Contains breaking features.**
+
 Python module for interacting with LED Shop Compatible Wifi Controllers (e.g. SP108E)
 
 Fork of the original project, located at https://github.com/kylezimmerman/pyledshop
