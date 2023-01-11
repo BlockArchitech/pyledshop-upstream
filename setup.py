@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="pyledshop",
     packages=["pyledshop"],
-    version="0.0.1",
+    version="0.0.2",
     description="A Python library to communicate with LED Shop compatible led strip controllers",
     author="blockarchitech",
     url="https://github.com/blockarchitech/pyledshop",
